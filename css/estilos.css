@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-marca {
+    padding: 16px 12px;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.menu-itens {
+    margin: 35px 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.compre-agora {
+    padding: 10px;
+    margin-left: 16px;
+    margin-right: 12px;
+    border: 1px solid #2203E4;
+    color: #2203E4;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+/* Primeira Section Desenvolvimento de Apps */
+
+.desenvolvimento-apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 118px;
+}
+
+.desenvolvimento-apps-filhos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+}
+
+.titulo-desenvimento-apps {
+    font-size: 47px;
+    font-weight: 700;
+    margin-right: 22px;
+}
+
+.texto-desenvolvimento-apps {
+    margin: 24px 0px;
+    font-size: 16px;
+}
+
+.botao-autor {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 76px;
+    height: 39px;
+    padding: 10px 16px;
+    cursor: pointer;
+    background-color: #0062FF;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.botao-demonstracao {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    height: 39px;
+    width: 152px;
+    cursor: pointer;
+    background-color: white;
+    color: #575757;
+    border: 1px solid #575757;
+    outline: none;
+}
+
+/* Segunda Section Autor */
